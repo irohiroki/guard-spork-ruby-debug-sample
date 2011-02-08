@@ -18,4 +18,5 @@ Spork.prefork do
 end
 
 Spork.each_run do
+  MyApp::Application.reload_routes!
 end
