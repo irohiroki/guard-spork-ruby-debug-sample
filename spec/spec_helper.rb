@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'spork'
+require File.expand_path("../spork-ruby-debug", __FILE__)
 
 Spork.prefork do
   ENV["RAILS_ENV"] ||= 'test'

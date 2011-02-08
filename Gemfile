@@ -32,4 +32,5 @@ group :development, :test do
   gem 'spork'
   gem 'guard-spork', :git => 'https://github.com/irohiroki/guard-spork.git'
   gem 'rb-fsevent'
+  gem 'ruby-debug19'
 end
