@@ -30,4 +30,6 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'autotest-rails'
   gem 'spork'
+  gem 'guard-spork', :git => 'https://github.com/irohiroki/guard-spork.git'
+  gem 'rb-fsevent'
 end
