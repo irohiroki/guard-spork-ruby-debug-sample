@@ -32,7 +32,7 @@ group :development, :test do
   gem 'spork'
   gem 'rb-inotify'                    if RUBY_PLATFORM =~ /linux/i
   gem 'libnotify'                     if RUBY_PLATFORM =~ /linux/i
-  gem 'guard-spork', :git => 'https://github.com/irohiroki/guard-spork.git'
+  gem 'guard-spork', :git => 'git://github.com/guard/guard-spork.git'
   gem 'rb-fsevent'
   gem 'ruby-debug19'
 end
