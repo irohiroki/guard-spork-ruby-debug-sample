@@ -30,7 +30,9 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'autotest-rails'
   gem 'spork'
-  gem 'guard-spork', :git => 'https://github.com/irohiroki/guard-spork.git'
+  gem 'rb-inotify'                    if RUBY_PLATFORM =~ /linux/i
+  gem 'libnotify'                     if RUBY_PLATFORM =~ /linux/i
+  gem 'guard-spork', :git => 'git://github.com/guard/guard-spork.git'
   gem 'rb-fsevent'
   gem 'ruby-debug19'
 end
