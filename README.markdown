@@ -22,10 +22,10 @@ Start up guard (which in turn will start up spork):
 bundle exec guard
 ```
 
-Then, in a different window/terminal, run your spec:
+Then, in a different window/terminal, run autotest:
 
 ```
-bundle exec rspec spec/models/user_spec.rb
+bundle exec autotest
 ```
 
 You should see the `ruby-debug` console appear in the terminal where you started guard/spork and should be able to type `ruby-debug` commands into it!
